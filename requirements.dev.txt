@@ -51,62 +51,62 @@ nbformat==5.0.6           # via ipywidgets, nbconvert, notebook
 notebook           # via jupyter, widgetsnbextension
 numpy==1.18.4             # via pandas, sagemaker, scipy, torch, transformers
 packaging==20.4           # via bleach, pytest, sagemaker
-pandas==1.0.3             # via -r requirements.dev.in
-pandocfilters==1.4.2      # via nbconvert
-parso==0.7.0              # via jedi
-pexpect==4.8.0            # via ipython
-pickleshare==0.7.5        # via ipython
-pip-tools==5.1.2          # via -r requirements.dev.in
-pluggy==0.13.1            # via pytest
-prometheus-client==0.7.1  # via notebook
-prompt-toolkit==3.0.5     # via ipython, jupyter-console
-protobuf3-to-dict==0.1.5  # via sagemaker
-protobuf==3.12.1          # via protobuf3-to-dict, sagemaker
-ptyprocess==0.6.0         # via pexpect, terminado
+pandas          # via -r requirements.dev.in
+pandocfilters      # via nbconvert
+parso             # via jedi
+pexpect         # via ipython
+pickleshare       # via ipython
+pip-tools       # via -r requirements.dev.in
+pluggy            # via pytest
+prometheus-client  # via notebook
+prompt-toolkit     # via ipython, jupyter-console
+protobuf3-to-dict # via sagemaker
+protobuf          # via protobuf3-to-dict, sagemaker
+ptyprocess        # via pexpect, terminado
 py                 # via pytest
-pyasn1==0.4.8             # via rsa
-pycodestyle==2.6.0        # via flake8
-pyflakes==2.2.0           # via flake8
+pyasn1             # via rsa
+pycodestyle       # via flake8
+pyflakes           # via flake8
 pygments           # via ipython, jupyter-console, nbconvert, qtconsole
-pylint==2.5.2             # via -r requirements.dev.in
-pyparsing==2.4.7          # via packaging
-pyrsistent==0.16.0        # via jsonschema
-pytest==5.4.2             # via -r requirements.dev.in
-python-dateutil==2.8.1    # via botocore, jupyter-client, pandas
-python-dotenv==0.13.0     # via -r requirements.dev.in
+pylint            # via -r requirements.dev.in
+pyparsing         # via packaging
+pyrsistent      # via jsonschema
+pytest             # via -r requirements.dev.in
+python-dateutil    # via botocore, jupyter-client, pandas
+python-dotenv     # via -r requirements.dev.in
 pytz==2020.1              # via pandas
 pyyaml             # via awscli
-pyzmq==19.0.1             # via jupyter-client, notebook, qtconsole
-qtconsole==4.7.4          # via jupyter
-qtpy==1.9.0               # via qtconsole
-regex==2020.5.14          # via sacremoses, transformers
-requests==2.23.0          # via transformers
+pyzmq             # via jupyter-client, notebook, qtconsole
+qtconsole         # via jupyter
+qtpy              # via qtconsole
+regex         # via sacremoses, transformers
+requests         # via transformers
 rsa                # via awscli
 s3transfer==0.3.3         # via awscli, boto3
 sacremoses==0.0.43        # via transformers
-sagemaker==1.59.0         # via -r requirements.dev.in
-scipy==1.4.1              # via sagemaker
-send2trash==1.5.0         # via notebook
-sentencepiece==0.1.91     # via transformers
-six==1.15.0               # via astroid, bleach, jsonschema, packaging, pip-tools, protobuf, protobuf3-to-dict, python-dateutil, sacremoses, traitlets
-smdebug-rulesconfig==0.1.2  # via sagemaker
-terminado==0.8.3          # via notebook
-testpath==0.4.4           # via nbconvert
+sagemaker        # via -r requirements.dev.in
+scipy             # via sagemaker
+send2trash     # via notebook
+sentencepiece   # via transformers
+six              # via astroid, bleach, jsonschema, packaging, pip-tools, protobuf, protobuf3-to-dict, python-dateutil, sacremoses, traitlets
+smdebug-rulesconfig  # via sagemaker
+terminado         # via notebook
+testpath           # via nbconvert
 tokenizers==0.7.0         # via transformers
-toml==0.10.1              # via pylint
-torch==1.5.0              # via -r requirements.dev.in
-tornado==6.0.4            # via ipykernel, jupyter-client, notebook, terminado
-tqdm==4.46.0              # via sacremoses, transformers
-traitlets==4.3.3          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
-transformers==2.10.0      # via -r requirements.dev.in
-typed-ast==1.4.1          # via astroid, mypy
-typing-extensions==3.7.4.2  # via mypy
-urllib3==1.25.9           # via botocore, requests
-wcwidth==0.1.9            # via prompt-toolkit, pytest
-webencodings==0.5.1       # via bleach
-widgetsnbextension==3.5.1  # via ipywidgets
-wrapt==1.12.1             # via astroid
-zipp==3.1.0               # via importlib-metadata
+toml              # via pylint
+torch              # via -r requirements.dev.in
+tornado            # via ipykernel, jupyter-client, notebook, terminado
+tqdm              # via sacremoses, transformers
+traitlets          # via ipykernel, ipython, ipywidgets, jupyter-client, jupyter-core, nbconvert, nbformat, notebook, qtconsole
+transformers      # via -r requirements.dev.in
+typed-ast          # via astroid, mypy
+typing-extensions  # via mypy
+urllib3           # via botocore, requests
+wcwidth            # via prompt-toolkit, pytest
+webencodings       # via bleach
+widgetsnbextension  # via ipywidgets
+wrapt             # via astroid
+zipp           # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
